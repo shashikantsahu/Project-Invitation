@@ -6,7 +6,6 @@ import org.codehaus.jackson.JsonFactory;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -25,6 +24,13 @@ public class Invitation {
     public static void main(String[] args) {
 
         String filename = System.getProperty("user.dir") + File.separator + "input" + File.separator + "customers.json";
+        if (args.length != 0){
+            for (int i = 0; i < args.length-1; i++) {
+                if(args[i] == "-f"){
+                    filename = args[i+1];
+                }
+            }
+        }
         List<ShortListedCustomer> shortListedCustomers = null;
         try {
             shortListedCustomers = shortlistCustomers(filename);
@@ -35,22 +41,8 @@ public class Invitation {
             shortListedCustomers.sort(new UserIdComparator());
             displayShortListedCustomers(shortListedCustomers);
         }
-
-
     }
 
-/*  method: to display the sorted list of matched customers */
-    private static void displayShortListedCustomers(List<ShortListedCustomer> shortListedCustomers) {
-        System.out.println( " -----------------------------\n" +
-                            "| Shortlisted Customers:\t |\n" +
-                            "-----------------------------\n" +
-                            " Name  \t\t\t|\t" + "User ID\n" +
-                            "-----------------------------") ;
-        for (ShortListedCustomer s : shortListedCustomers){
-            System.out.println(s.toString());
-        }
-        System.out.println("-----------------------------");
-    }
 
 /*  method: to shortlist the customers based on distance criteria  */
     public static List<ShortListedCustomer> shortlistCustomers(String filename) throws IOException {
@@ -77,8 +69,8 @@ public class Invitation {
                     if (current == JsonToken.START_ARRAY){
                         while (jsonParser.nextToken() != JsonToken.END_ARRAY){
                             JsonNode jsonNode = jsonParser.readValueAsTree();
-                            String name = String.valueOf(jsonNode.get("name"));
-                            String userId = String.valueOf(jsonNode.get("userId"));
+                            String name = String.valueOf(jsonNode.get("name")).replaceAll("\"","");
+                            String userId = String.valueOf(jsonNode.get("userId")).replaceAll("\"","");
                             double latitude = 999999, longitude = 999999;
                             if (name == "null" || userId == "null"){
                                 System.out.println("Invalid entry: " + jsonNode.toString());
@@ -110,7 +102,21 @@ public class Invitation {
         return shortListedCustomers;
     }
 
-/*  method: to calculate the distance between two coordinates  */
+
+    /*  method: to display the sorted list of matched customers */
+    private static void displayShortListedCustomers(List<ShortListedCustomer> shortListedCustomers) {
+        System.out.println( " -----------------------------\n" +
+                "| Shortlisted Customers:\t |\n" +
+                "-----------------------------\n" +
+                " Name  \t\t\t|\t" + "User ID\n" +
+                "-----------------------------") ;
+        for (ShortListedCustomer s : shortListedCustomers){
+            System.out.println(s.toString());
+        }
+        System.out.println("-----------------------------");
+    }
+
+    /*  method: to calculate the distance between two coordinates  */
     public static double calculateDistance(double latitude, double longitude) {
 
         return Math.acos(Math.sin(Math.toRadians(latitude))

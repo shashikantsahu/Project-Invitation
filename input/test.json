@@ -3,7 +3,8 @@
                     {"name": "Senapati","latitude": 12.919703,"longitude": 77.286751,"email": "senapati@example.com","userId": "senapati"},
                     {"name": "Devsena","latitude": 13.339861,"longitude": 77.109453,"email": "devsena@example.com","userId": "devsena"},
                     {"name": "John","latitude": 12.899959,"longitude": 77.593630,"email": "john@example.com","userId": "john34"},
-                    {"name": "Sipaahi","latitude": 38.923375,"longitude": -95.728571,"email": "sipaahi@example.com","userId": "sipaahi"}
+                    {"name": "Sipaahi","latitude": 38.923375,"longitude": -95.728571,"email": "sipaahi@example.com","userId": "sipaahi"},
+                    {"name": "Preeti","latitude": 12.999959,"longitude": 77.593630,"email": "preeti@example.com","userId": "_preeti"}
                ],
 
   "users" :   [     {"name": "Kottappa","latitude": 12.296541,"longitude": 76.639877,"email": "kottappa@example.com","userId": "kottappa"},

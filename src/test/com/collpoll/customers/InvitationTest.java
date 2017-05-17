@@ -13,14 +13,22 @@ import static org.junit.Assert.*;
 public class InvitationTest {
     @Test
     public void testMain() throws Exception {
-
+        String[] args = {"-f", System.getProperty("user.dir") + File.separator + "input" + File.separator + "test.json"};
+        String[] args2 = {"-f"};
+        String[] args3 = {System.getProperty("user.dir") + File.separator + "input" + File.separator + "test.json", "-f"};
+        Invitation.main(args);
+        assertTrue(true);
+        Invitation.main(args2);
+        assertTrue(true);
+        Invitation.main(args3);
+        assertTrue(true);
     }
 
     @Test
     public void testShortlistCustomers() throws Exception {
         String filename = System.getProperty("user.dir") + File.separator + "input" + File.separator + "test.json";
         List<ShortListedCustomer> shortListedCustomers = Invitation.shortlistCustomers(filename);
-        assertEquals(shortListedCustomers.size(),4); // 4 valid entries within 100 km radius in the "test.json" file
+        assertEquals(shortListedCustomers.size(),5); // 5 valid entries within 100 km radius in the "test.json" file
     }
 
     @Test
