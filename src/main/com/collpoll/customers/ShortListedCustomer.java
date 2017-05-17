@@ -14,7 +14,7 @@ public class ShortListedCustomer {
 
     @Override
     public String toString() {
-        return userId + "\t\t|\t" + name;
+        return name + "\t\t|\t" + userId;
     }
 }
 

@@ -44,7 +44,7 @@ public class Invitation {
         System.out.println( " -----------------------------\n" +
                             "| Shortlisted Customers:\t |\n" +
                             "-----------------------------\n" +
-                            "User ID \t\t|\t" + "Name\n" +
+                            " Name  \t\t\t|\t" + "User ID\n" +
                             "-----------------------------") ;
         for (ShortListedCustomer s : shortListedCustomers){
             System.out.println(s.toString());
