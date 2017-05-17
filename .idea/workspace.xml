@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b6c5250-1c3d-43d1-9ac9-72f722c76429" name="Default" comment="new Test cases added.&#10;new feature: command line calling of main method with arguments">
+    <list default="true" id="9b6c5250-1c3d-43d1-9ac9-72f722c76429" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java Project/com/collpoll/customers/Invitation.class" afterPath="$PROJECT_DIR$/out/production/Java Project/com/collpoll/customers/Invitation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java Project/com/collpoll/customers/ShortListedCustomer.class" afterPath="$PROJECT_DIR$/out/production/Java Project/com/collpoll/customers/ShortListedCustomer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/test.json" afterPath="$PROJECT_DIR$/input/test.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/collpoll/customers/Invitation.java" afterPath="$PROJECT_DIR$/src/main/com/collpoll/customers/Invitation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/collpoll/customers/ShortListedCustomer.java" afterPath="$PROJECT_DIR$/src/main/com/collpoll/customers/ShortListedCustomer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com/collpoll/customers/InvitationTest.java" afterPath="$PROJECT_DIR$/src/test/com/collpoll/customers/InvitationTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +22,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InvitationTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InvitationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/collpoll/customers/InvitationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
@@ -38,13 +34,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Invitation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Invitation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/com/collpoll/customers/Invitation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="124">
+              <caret line="48" column="72" lean-forward="false" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
               <folding>
-                <element signature="e#1651#1672#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -567,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495033582482</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-००००२" summary="new Test cases added.&#10;new feature: command line calling of main method with arguments">
+      <created>1495051901075</created>
+      <option name="number" value="००००२" />
+      <option name="presentableId" value="LOCAL-००००२" />
+      <option name="project" value="LOCAL" />
+      <updated>1495051901075</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -604,9 +607,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -694,7 +698,7 @@
         <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#1651#1672#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -741,16 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/collpoll/customers/Invitation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#1651#1672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/collpoll/customers/ShortListedCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -763,6 +757,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/collpoll/customers/Invitation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="48" column="72" lean-forward="false" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
