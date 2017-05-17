@@ -1,0 +1,24 @@
+{  "customers" : [  {"name": "Janardhan","latitude": 12.296541,"longitude": 76.639877,"email": "janardhan@example.com","userId": "janardhan34"},
+                    {"name": "Srihari","latitude": 13.372702,"longitude": 77.673909,"email": "srihari@example.com","userId": "coolsrihari"},
+                    {"name": "Senapati","latitude": 12.919703,"longitude": 77.286751,"email": "senapati@example.com","userId": "senapati"},
+                    {"name": "Devsena","latitude": 13.339861,"longitude": 77.109453,"email": "devsena@example.com","userId": "devsena"},
+                    {"name": "John","latitude": 12.899959,"longitude": 77.593630,"email": "john@example.com","userId": "john34"},
+                    {"name": "Sipaahi","latitude": 38.923375,"longitude": -95.728571,"email": "sipaahi@example.com","userId": "sipaahi"}
+               ],
+
+  "users" :   [     {"name": "Kottappa","latitude": 12.296541,"longitude": 76.639877,"email": "kottappa@example.com","userId": "kottappa"},
+                    {"name": "Kaushalya","latitude": 13.372702,"longitude": 77.673909,"email": "kaushalya@example.com","userId": "kaushalya"},
+                    {"name": "Jignes","latitude": 12.919703,"longitude": 77.286751,"email": "jignes@example.com","userId": "jignes"},
+                    {"name": "Devsena","latitude": 13.339861,"longitude": 77.109453,"email": "devsena@example.com","userId": "devsena"},
+                    {"name": "Mike","latitude": 12.899959,"longitude": 77.593630,"email": "mike@example.com","userId": "iammike"},
+                    {"name": "narendra","latitude": 38.923375,"longitude": -95.728571,"email": "narendra@example.com","userId": "narendra"}
+               ],
+
+  "admins" :  [     {"name": "Sweetesh","latitude": 12.296541,"longitude": 76.639877,"email": "sweetesh@example.com","userId": "sweetesh"},
+                    {"name": "Sampat","latitude": 13.372702,"longitude": 77.673909,"email": "sampat@example.com","userId": "sampat"},
+                    {"name": "Vaastu","latitude": 12.919703,"longitude": 77.286751,"email": "vaastu@example.com","userId": "vaastu"},
+                    {"name": "Jigyasa","latitude": 13.339861,"longitude": 77.109453,"email": "jigyasa@example.com","userId": "jigyasa"},
+                    {"name": "Patanjali","latitude": 12.899959,"longitude": 77.593630,"email": "patanjali@example.com","userId": "patanjali"},
+                    {"name": "Shaktimaan","latitude": 38.923375,"longitude": -95.728571,"email": "shaktimaan@example.com","userId": "shaktimaan"}
+              ]
+}

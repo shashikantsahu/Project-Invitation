@@ -1,0 +1,9 @@
+{  "customers" : [  {"name": "Janardhan","latitude": 12.296541,"longitude": 76.639877,"email": "janardhan@example.com","userId": "janardhan34"},
+                    {"name": "Senapati","latitude": 12.919703,"longitude": 77.286751,"email": "senapati@example.com","userId": "senapati"},
+                    {"name": "Devsena","latitude": 13.339861,"longitude": 77.109453,"email": "devsena@example.com","userId": "devsena"},
+                    {"name": "Srihari","latitude": 13.372702,"longitude": 77.673909,"email": "srihari@example.com","userId": "coolhari"},
+                    {"name": "Sipaahi","latitude": 12.899959,"longitude": 77.593630,"email": "sipaahi@example.com","userId": "sipaahi"},
+                    {"name": "John Cena","latitude": 38.923375,"longitude": -95.728571,"email": "john@example.com","userId": "john34"},
+                    {"name": "Mike Hussey","latitude": 180,"longitude": -95.828556,"email": "hussey@example.com", "userId": "mike"}
+]
+}
